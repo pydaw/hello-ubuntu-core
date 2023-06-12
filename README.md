@@ -1,0 +1,1 @@
+# ubuntu-core-snap-example
