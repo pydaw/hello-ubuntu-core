@@ -1,3 +1,9 @@
+# Ignore Snaps
+*.snap
+
+# Ignore tmp directory
+tmp/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -26,8 +32,6 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Snaps
-*.snap
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

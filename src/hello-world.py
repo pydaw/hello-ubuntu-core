@@ -1,3 +1,17 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
-print('Hello World!')
+"""
+    my application.
+"""
+
+def main():
+    """run the application"""
+
+    print('Hello World!')
+    
+    input("Press enter to exit ;)")
+    input()
+
+
+if __name__ == '__main__':
+    main()
