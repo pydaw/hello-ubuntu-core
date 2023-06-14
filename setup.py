@@ -1,34 +1,25 @@
-import os
-
 from setuptools import setup
+import sys,os
 
-with open('README.md') as readme_file:
-    readme = readme_file.read()
-
-this = os.path.dirname(os.path.realpath(__file__))
-
-def read(name):
-    with open(os.path.join(this, name)) as f:
-        return f.read()
 setup(
-    name='hello-world',
-    version='0.0.1',
-    description='description',
-    long_description=readme,
-    author='Daniel Wärnelov',
-    author_email='daniel.pean@gmail.com',
-    url='https://github.com/gocarlos/python-ubuntu-snap-app-example',
-    packages=['packages'],
-    install_requires=read('requirements.txt'),
-    include_package_data=True,
-    zip_safe=True,
-    licence='MIT',
-    keywords='Simple example of python snap',
-    classifiers=[
-        'Development Status :: 5 - Production/Stable',
-        'Intended Audience :: Developers',
-        'Natural Language :: English'
-    ],
-    test_suite='tests',
-    scripts=['src/hello-world']S
+    name = 'hello-world',
+    version = '0.1.0',
+    description = 'Python test package',
+    license='GPL v3',
+    author = 'Daniel Wärnelöv',
+    packages = ['src'],
+    package_data={'src': ['description.txt']
+                 },
+    install_requires=['future'],
+    entry_points = {
+        'console_scripts': [
+            'hello-world=src.hello-world:main']
+            },
+    classifiers = ['Operating System :: OS Independent',
+            'Programming Language :: Python :: 2.7',
+            'Programming Language :: Python :: 3.6',
+            'Operating System :: MacOS :: MacOS X',
+            'Operating System :: Microsoft :: Windows',
+            'Operating System :: POSIX',
+            'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'],
 )
