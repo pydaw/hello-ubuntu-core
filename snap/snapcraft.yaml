@@ -19,3 +19,4 @@ parts:
   hello-world-python:
     # See 'snapcraft plugins'
     plugin: python
+    source: .
