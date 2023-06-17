@@ -17,7 +17,7 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 
 apps:
   hello-world-python:
-    command: /bin/python hello-world.py
+    command: /bin/python $SNAP/mhello-world.py
 parts:
   hello-world-python:
     # See 'snapcraft plugins'
