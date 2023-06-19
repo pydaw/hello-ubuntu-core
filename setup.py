@@ -6,10 +6,11 @@ setup(
     url='https://github.com/yourusername/myprogram',
     author='Daniel Wärnelov',
     author_email='daniel.pean@gmail.com',
-    py_modules=['hello-world'],
-    entry_points={
-        'console_scripts': [
-            'hello-world=hello-world:main',
-        ],
-    },
+    # py_modules=['hello-world'],
+    # entry_points={
+    #     'console_scripts': [
+    #         'hello-world=hello-world:main',
+    #     ],
+    # },
+    packages=['hello-world']
 )
