@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='hello-world',
+    name='helloworld',
     version='1.0.0',
     url='https://github.com/yourusername/myprogram',
     author='Daniel Wärnelov',
@@ -12,5 +12,5 @@ setup(
     #         'hello-world=hello-world:main',
     #     ],
     # },
-    packages=['hello-world']
+    packages=['helloworld']
 )
