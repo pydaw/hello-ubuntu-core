@@ -17,3 +17,4 @@ setup(
             'helloworld=helloworld.helloworld:main',
         ],
     },
+)
