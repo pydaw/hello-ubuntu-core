@@ -14,7 +14,7 @@ setup(
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            'helloworld=helloworld:main',
+            'helloworld=bin.helloworld:main',
         ],
     },
     # packages=['helloworld']
