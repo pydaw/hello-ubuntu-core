@@ -9,12 +9,11 @@ setup(
     url='https://github.com/yourusername/myprogram',
     author='Daniel Wärnelöv',
     author_email='daniel.pean@gmail.com',
-    packages=['helloworld', 'bin'],
+    packages=['src'],
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            # 'helloworld=bin.helloworld:main',
-            'helloworld=helloworld.helloworld:main',
+            'helloworld=src.helloworld:main',
         ],
     },
 )
