@@ -20,4 +20,6 @@ parts:
   hello-world-python:
     # See 'snapcraft plugins'
     plugin: python
-    source: .
+    source: https://github.com/pydaw/ubuntu-core-snap-example.git # Needed if we want the git number version.
+    # source: . # Works too.
+    
