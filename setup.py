@@ -7,7 +7,7 @@ setup(
     author='Daniel Wärnelöv',
     author_email='daniel.pean@gmail.com',
     packages=['src'],
-    include_package_data=True,
+    # include_package_data=True,
     entry_points={
         'console_scripts': [
             'helloworld=src.helloworld:main',
