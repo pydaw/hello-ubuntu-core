@@ -24,5 +24,3 @@ parts:
     # See 'snapcraft plugins'
     plugin: python
     source: .
-    # source: https://github.com/pydaw/ubuntu-core-snap-example.git
-    
